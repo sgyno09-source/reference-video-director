@@ -1,0 +1,13 @@
+interface:
+  display_name: RISE 火焰电影提示词
+  short_description: 生成连续镜头火焰视频提示词，锁定人物、动作因果、时间轴和完整构图
+  default_prompt: 使用 $create-rise-fire-video，根据我的人物参考图生成30秒RISE火焰视频完整提示词。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

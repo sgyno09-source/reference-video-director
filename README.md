@@ -314,6 +314,25 @@ Skill 会自动跟随用户当前使用的语言。
 - English input → English output
 - 用户明确指定语言 → 按指定语言输出
 
+## RISE 火焰电影提示词
+
+仓库新增独立技能 [RISE 火焰电影提示词](skills/create-rise-fire-video/SKILL.md)，可单独导入 `skills/create-rise-fire-video/` 整个目录，也可以通过主技能自动调用。
+
+默认方案为30秒、16:9连续镜头：点烟、吐烟、抛出同一根火柴、落地后火势沿RISE路径扩展、镜头持续后拉、22秒后翘二郎腿，最终完整人物、椅子、双脚与RISE互不遮挡。支持换人物、换文字和调整时长。
+
+人物参考图需由使用者提供。技能输出视频提示词，不会自行生成视频。
+
+调用示例：
+
+```text
+使用 create-rise-fire-video
+图1作为唯一人物参考
+做30秒RISE火焰视频完整提示词
+保持全身、椅子和字母完整无遮挡
+```
+
+完整时间轴与约束见 [30秒方案](skills/create-rise-fire-video/references/rise-30s.md)。
+
 ---
 
 Made for reference-driven video prompt workflows.

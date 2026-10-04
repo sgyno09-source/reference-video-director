@@ -1,9 +1,17 @@
 ---
 name: reference-video-director
-description: Creates production-ready reference-driven video prompts from character, outfit, scene, relationship, story, and duration inputs. Use for requests such as 情侣短剧、情侣互动、男友视角、女友视角、情侣POV、恋爱POV、参考图视频、15秒/30秒剧情、couple POV, boyfriend POV, girlfriend POV, romantic short scene, reference video prompt, or when a rough scene needs natural dialogue, micro-expressions, continuity, and model-specific optimization.
+description: Creates production-ready reference-driven video prompts from character, outfit, scene, relationship, story, and duration inputs. Use for requests such as 情侣短剧、情侣互动、男友视角、女友视角、情侣POV、恋爱POV、参考图视频、15秒/30秒剧情、couple POV, boyfriend POV, girlfriend POV, romantic short scene, reference video prompt, RISE火焰视频、点烟抛火柴连续镜头、燃烧文字、RISE fire video, burning-letter reveal, or when a rough scene needs natural dialogue, micro-expressions, continuity, and model-specific optimization.
 ---
 
 # Reference Video Director
+
+## Specialized fire-video workflow
+
+For RISE fire videos, lighting a cigarette and throwing a match, burning-letter reveals, or variants of this sequence, read [RISE Fire Video Prompt](skills/create-rise-fire-video/SKILL.md) and its [30-second baseline](skills/create-rise-fire-video/references/rise-30s.md). Follow that workflow for the full prompt and validation.
+
+In this mode, use its single continuous dolly-back shot, calm performance, mouth-held cigarette, one-match causality, delayed leg crossing, and unobstructed final composition. Do not apply the couple relationship defaults, changing eye-line requirements, recommended multi-shot counts, or couple dialogue/story engine below. Preserve the shared identity and outfit continuity rules. Treat RISE as scene geometry, not a prohibited text overlay. User-requested changes remain authoritative.
+
+For other scenes, continue with the general workflow below. Do not introduce smoking, fire, or burning letters into unrelated couple scenes.
 
 ## Purpose
 

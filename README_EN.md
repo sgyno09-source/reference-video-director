@@ -318,6 +318,25 @@ The Skill follows the user's language automatically.
 - English input → English output
 - Explicit language request → follow the requested language
 
+## RISE Fire Video Prompt
+
+The repository now includes a standalone [RISE Fire Video Prompt skill](skills/create-rise-fire-video/SKILL.md). Import the entire `skills/create-rise-fire-video/` folder separately, or invoke it through the main skill.
+
+The default is a 30-second, 16:9 continuous shot: light a cigarette, exhale, throw the same match, ignite the background only after landing, reveal burning RISE letters while the camera dollies backward, cross the legs only after 22 seconds, and finish with the full character, chair, both feet, and all letters visible without overlap. Character references, lettering, and duration can be changed.
+
+Supply your own character reference image. This skill writes video prompts; it does not generate a video by itself.
+
+Example:
+
+```text
+Use create-rise-fire-video.
+Bind image 1 as the only character identity reference.
+Write the complete 30-second RISE fire-video prompt.
+Keep the full body, chair, and letters visible without overlap.
+```
+
+See the [30-second baseline](skills/create-rise-fire-video/references/rise-30s.md) for the timeline and constraints.
+
 ---
 
 Made for reference-driven video prompt workflows.
